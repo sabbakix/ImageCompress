@@ -1,0 +1,24 @@
+{
+  "name": "imagecompress",
+  "version": "1.0.0",
+  "description": "Compress image to desired level for web publishing",
+  "main": "main.js",
+  "scripts": {
+    "test": "test",
+    "start": "electron .",
+    "dev": "nodemon --exec electron ."
+  },
+  "keywords": [
+    "Compress",
+    "Images",
+    "Optimize",
+    "web",
+    "size"
+  ],
+  "author": "Stefy Sabbadin",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
