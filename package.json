@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Compress image to desired level for web publishing",
   "main": "main.js",
+  "type": "commonjs",
   "scripts": {
     "test": "test",
     "start": "electron .",
@@ -20,5 +21,12 @@
   "devDependencies": {
     "electron": "^22.0.0",
     "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "imagemin": "^8.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "node-fetch": "^2.6.1",
+    "slash": "^5.0.0"
   }
 }
